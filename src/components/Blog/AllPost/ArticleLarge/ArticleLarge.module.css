@@ -1,0 +1,35 @@
+.container {
+    box-sizing: border-box;
+    display: flex;
+    margin: 7px;
+    border-bottom: 1px solid #cccbcf;
+}
+
+
+.content {
+    margin: 15px;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.data {
+    color: rgb(119, 115, 115);
+}
+
+.text {
+    color: rgb(119, 115, 115);
+    line-height: 25px;
+
+}
+
+.title {
+    margin-top: 6px;
+    color: #2e2d31;
+    font-weight: 800;
+    line-height: 32px;
+}

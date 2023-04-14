@@ -1,0 +1,43 @@
+.content {
+  margin: 15px 15px 15px 0;
+}
+
+.data {
+  color: rgb(119, 115, 115);
+}
+
+.text {
+  color: rgb(119, 115, 115);
+  line-height: 25px;
+}
+
+.title {
+  margin-top: 6px;
+  color: #2e2d31;
+  font-weight: 800;
+  line-height: 32px;
+}
+
+.img {
+  /* display: flex; */
+  width: 300px;
+  height: 150px;
+  /* margin: 0 auto; */
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 300px;
+  border-bottom: 1px solid #cccbcf;
+  margin: 20px 0 0 20px;
+}
+
+.title {
+  margin: 6px 0 0 0;
+  color: #2e2d31;
+  font-weight: 800;
+  line-height: 25px;
+}

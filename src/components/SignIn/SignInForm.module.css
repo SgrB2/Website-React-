@@ -1,0 +1,25 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 600px;
+  min-height: 450px;
+  border: 1px solid rgba(215, 209, 209, 0.69);
+}
+
+.bottomText {
+  margin: 0;
+  color: rgb(119, 115, 115);
+}
+
+.link {
+  text-decoration: none;
+  margin-left: 4px;
+}
+
+.link_ForgotPassword {
+  margin-right: 430px;
+  color: rgb(119, 115, 115);
+}

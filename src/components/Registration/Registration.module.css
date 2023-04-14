@@ -1,0 +1,14 @@
+.notice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 650px;
+  border: 1px solid rgba(215, 209, 209, 0.69);
+  margin: 0 auto;
+}
+
+.text {
+  width: 300px;
+ margin-right: 250px;
+}

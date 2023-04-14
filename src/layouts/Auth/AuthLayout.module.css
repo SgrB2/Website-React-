@@ -1,0 +1,27 @@
+.container {
+  min-height: 100vh;
+  background-color: #ededed;
+}
+
+.header {
+  height: 50px;
+  margin-bottom: 24px;
+  background-color: #5463CA;
+}
+
+.wrapper {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.content {
+  min-height: calc(
+    100vh - 174px
+  ); /* .header height + .header margin-bottom + .footer height = 174 */
+}
+
+.footer {
+  height: 100px;
+  box-sizing: border-box;
+  padding: 12px 0;
+}

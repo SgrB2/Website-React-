@@ -1,0 +1,19 @@
+
+.blog_container {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  margin: 20px;
+}
+.aside {
+  /* display: flex;
+    flex-direction: column; */
+  width: 400px;
+  margin: 10px 0 0 15px;
+}
+
+.section_medium {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+}
