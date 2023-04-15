@@ -23,7 +23,7 @@ const AuthLayout: React.FC<AuthLayoutProps> = ({ header, content, footer }) => {
       <header className={styles.header}>{header}</header>
       <div className={styles.wrapper}>
         <main className={styles.content}>
-          <Search />
+        <SignUp />
         </main>
         <footer className={styles.footer}>
           <Footer copyright="&copy;2023" rights="All rights reserved" />

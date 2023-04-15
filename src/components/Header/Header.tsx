@@ -1,6 +1,6 @@
 import React from "react";
 import Icons from "../Icons/Icons";
-
+import NavBar from "../NavBar/NavBar";
 import styles from "./Header.module.css";
 
 interface HeaderProps {
@@ -13,9 +13,9 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = () => {
   return (
     <div className={styles.wrapper}>
-      <button className={styles.button}>
-        <Icons name="menu" />
-      </button>
+      {/* <div className={styles.nav}> */}
+        <NavBar />
+      {/* </div> */}
       <input
         type="text"
         name="search"

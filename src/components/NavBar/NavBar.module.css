@@ -1,0 +1,48 @@
+.container {
+  width: 150px;
+}
+
+.container ul {
+  list-style-type: none;
+  padding: 0;
+}
+.container li {
+  height: 50px;
+  border-bottom: 1px solid #cccbcf;
+  text-align: center;
+  margin: 10px;
+}
+.text {
+  text-decoration: none;
+  color: #313f54;
+  font-size: 19px;
+  font-weight: 500;
+}
+.text:hover {
+  color: #1c30b1;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: -100%;
+  right: 0;
+  top: 35px;
+  bottom: 0;
+  width: 200px;
+  height: 700px;
+  background-color: #fff;
+  z-index: 10;
+  transition: left 0.8s;
+}
+.icon_bar {
+  position: absolute;
+  top: 14px;
+  left: 160px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.active {
+  left: 0;
+}
