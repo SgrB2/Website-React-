@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./ArticleSmall.module.css";
-
+import ActionsBlock from "../../../ActionsBlock/ActionsBlock";
 interface Post {
   key?: number;
   image?: string;
@@ -22,6 +22,7 @@ const ArticleSmall: React.FC<Post> = (props) => {
           <img className={styles.img} src={props.image} alt="img" />
         </div>
       </div>
+      <ActionsBlock />
     </article>
   );
 };

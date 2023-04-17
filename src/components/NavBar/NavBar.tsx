@@ -3,7 +3,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 import styles from "./NavBar.module.css";
 
-const NavBar = () => {
+const NavBar: React.FC = () => {
   const [navBar, setnavBar] = useState(false);
 
   const activeMenu = [styles.menu, styles.active].join(" ");

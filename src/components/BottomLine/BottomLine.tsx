@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./BottomLine.module.css";
 
-const Line = () => {
+const Line: React.FC = () => {
 return <div className={styles.line}></div>
 }
 

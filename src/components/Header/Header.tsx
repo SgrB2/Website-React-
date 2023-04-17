@@ -13,9 +13,7 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = () => {
   return (
     <div className={styles.wrapper}>
-      {/* <div className={styles.nav}> */}
-        <NavBar />
-      {/* </div> */}
+      <NavBar />{" "}
       <input
         type="text"
         name="search"
